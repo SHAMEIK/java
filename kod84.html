@@ -1,0 +1,45 @@
+
+<textarea cols="90" cols="90">
+<html> 
+<head> 
+<title> Zad 82</title>
+ <script language="JavaScript">
+ function pushbutton() {
+ alert("Witam !");}
+ </script>
+ <style>
+ h1
+ {
+ font-size: 80px;
+ color: green;
+ }
+ p
+ {
+ color: blue;
+ font-size: 40px;
+ }
+ </style>
+</head> 
+<body>
+<h1>Krzysztof Labudda</h1>
+<p>dzis = new Date() - przypisanie daty do zmiennej dzis</p>
+<p>dzis = dzis.getHours() - wyswietlenie godziny ze zmiennej dzis</p>
+<p>dzis = dzis.getMinutes() - wyswietlenie minut ze zmiennej dzis</p>
+<p>dzis = dzis.getMonth() - wyswietlenie miesiąca ze zmiennej dzis</p>
+<p>dzis = dzis.getDate() - wyswietlenie ostatnich 2 liczb roku ze zmiennej dzis</p>
+<p>dzis = dzis.getDate() - wyswietlenie roku ze zmiennej dzis</p>
+Ostatnio zmodyfikowany 
+<script language="LiveScript">
+ document.write(document.lastModified,"<br>")
+</script>
+<form>
+ <input type="button" name="Button1" value="Naciśnij mnie" onclick="pushbutton()">
+</form> 
+<script language="JavaScript">
+ dzis = new Date()
+ document.write("<br>Aktualny czas : ",dzis.getHours(),":",dzis.getMinutes())
+ document.write("<br>Aktualna data : ",dzis.getMonth()+1,",",dzis.getDate(),",",dzis.getFullYear());
+</script>
+</body> 
+</html>
+</textarea>

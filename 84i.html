@@ -1,0 +1,43 @@
+
+<html> 
+<head> 
+<title> Zad 82</title>
+ <script language="JavaScript">
+ function pushbutton() {
+ alert("Witam !");}
+ </script>
+ <style>
+ h1
+ {
+ font-size: 80px;
+ color: green;
+ }
+ p
+ {
+ color: blue;
+ font-size: 40px;
+ }
+ </style>
+</head> 
+<body>
+<h1>Krzysztof Labudda</h1>
+<p>dzis = new Date() - utwórz obiekt o nazwie dzis</p>
+<p>dzis = dzis.getHours() - pobierz godzine z obiektu dzis</p>
+<p>dzis = dzis.getMinutes() - pobierz minuty z obiektu dzis</p>
+<p>dzis = dzis.getMonth() -pobierz misiące z obiektu dzis</p>
+<p>dzis = dzis.getDate() - pobierz date z obiektu dzis</p>
+<p>dzis = dzis.getDate() - pobierz pełną date z obiektu dzis</p>
+Ostatnio zmodyfikowany 
+<script language="LiveScript">
+ document.write(document.lastModified,"<br>")
+</script>
+<form>
+ <input type="button" name="Button1" value="Naciśnij mnie" onclick="pushbutton()">
+</form> 
+<script language="JavaScript">
+ dzis = new Date()
+ document.write("<br>Aktualny czas : ",dzis.getHours(),":",dzis.getMinutes())
+ document.write("<br>Aktualna data : ",dzis.getMonth()+1,",",dzis.getDate(),",",dzis.getFullYear());
+</script>
+</body> 
+</html>
